@@ -1,5 +1,5 @@
 # Programación de Servicios y Procesos
-Esta va a ser una pequeña portada en la que vamos a explicar las definiciones básicas de la programación:
+Esta va a ser una pequeña portada (contará como la Actividad 1) en la que vamos a explicar las definiciones básicas de la programación:
 
 ## Clase
 Una clase es como si tuvieramos un maniquí que podemos moldear a nuestra manera, por ejemplo, añadiendo ojos, masa, e incluso órganos. Ahora que tenemos creado nuestro maniquí, lo podemos usar para crear muchos más maniquies, los cuales podrán o no tener los atributos (órganos) que les hemos asignado.
