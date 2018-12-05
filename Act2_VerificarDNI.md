@@ -1,4 +1,4 @@
-# Verificar DNI
+# Actividad 2. Verificar DNI.
 
 Esta es la función realizada en java:
 ```java
