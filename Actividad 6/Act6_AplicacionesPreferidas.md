@@ -35,22 +35,22 @@ public class AplicacionesPreferidas extends JFrame {
 		// del recurso. En este caso es una imagen a la que le hacemos un resize al tamaño deseado.
 		// No se puede construir directamente desde el segundo ImageIcon por limitaciones del constructor
 		// y la superclase abstracta Image.
-		JButton btnChrome = new JButton(new ImageIcon(new ImageIcon(getClass().getResource("/activitat5/img/chrome.png"))
+		JButton btnChrome = new JButton(new ImageIcon(new ImageIcon(getClass().getResource("/activitat6/img/chrome.png"))
 				.getImage().getScaledInstance(60, 60, Image.SCALE_SMOOTH)));
 		btnChrome.setBounds(31, 11, 60, 60);
 		contentPane.add(btnChrome);
 
-		JButton btnSpotify = new JButton(new ImageIcon(new ImageIcon(getClass().getResource("/activitat5/img/spotify.png"))
+		JButton btnSpotify = new JButton(new ImageIcon(new ImageIcon(getClass().getResource("/activitat6/img/spotify.png"))
 				.getImage().getScaledInstance(60, 60, Image.SCALE_SMOOTH)));
 		btnSpotify.setBounds(131, 11, 60, 60);
 		contentPane.add(btnSpotify);
 
-		JButton btnNotepad = new JButton(new ImageIcon(new ImageIcon(getClass().getResource("/activitat5/img/notepad.png"))
+		JButton btnNotepad = new JButton(new ImageIcon(new ImageIcon(getClass().getResource("/activitat6/img/notepad.png"))
 				.getImage().getScaledInstance(60, 60, Image.SCALE_SMOOTH)));
 		btnNotepad.setBounds(231, 11, 60, 60);
 		contentPane.add(btnNotepad);
 
-		JButton btnWorkbench = new JButton(new ImageIcon(new ImageIcon(getClass().getResource("/activitat5/img/mysqlWorkbench.png"))
+		JButton btnWorkbench = new JButton(new ImageIcon(new ImageIcon(getClass().getResource("/activitat6/img/mysqlWorkbench.png"))
 				.getImage().getScaledInstance(60, 60, Image.SCALE_SMOOTH)));
 		btnWorkbench.setBounds(331, 11, 60, 60);
 		contentPane.add(btnWorkbench);
