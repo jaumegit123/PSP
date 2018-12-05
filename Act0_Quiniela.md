@@ -1,5 +1,6 @@
-# Actividad 0 - Quiniela.
+# Actividad 0. Quiniela.
 Se muestran todas las combinaciones posibles de la quiniela, menos las más irreales.
+
 Este es el código realizado en Java.
 ```java
 
