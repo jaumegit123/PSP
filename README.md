@@ -1,6 +1,3 @@
-# PSP
-Programación de servicios y procesos.
-
 Esta va a ser una pequeña portada en la que vamos a explicar las definiciones básicas de la programación.
 
 ## Clase
