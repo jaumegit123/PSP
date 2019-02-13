@@ -1,4 +1,4 @@
 Esto dentro de poco será un bonito índice :)
 
 
-[here](Actividad 0/README.md)
+[here](Actividad0/Act0_Quiniela.md)
