@@ -1,9 +1,10 @@
-(En progreso...)
+Portada e índice en progreso...
 
 # Programación de Servicios y Procesos
+Breve explicación
 
 ## ÍNDICE
-<details>
+<details open>
 <summary>Primera evaluación</summary>
   
 ### [Actividad 0 - Quiniela](Actividad%200/Act0_Quiniela.md)
@@ -23,7 +24,7 @@
 ### [Actividad 7 - Aplicaciones del SO en procesos](Actividad%207/Act7_AplicacionesSO.md)
 </details>
 <br>
-<details>
+<details open>
 <summary>Segunda evaluación</summary>
   
 ### [Proyecto API League Of Legends](Actividad%200/Act0_Quiniela.md)
