@@ -1,5 +1,5 @@
 # Actividad 1. Definiciones básicas.
-En esta actividad voy a definir las carácteristicas básicas de la programación con intención de que todo el mundo pueda entenderlas:
+En esta actividad voy a definir las carácteristicas básicas de la programación con intención de que todo el mundo pueda entenderlas.
 
 ## Clase
 Una clase es como si tuvieramos un maniquí que podemos moldear a nuestra manera, por ejemplo, añadiendo ojos, masa, e incluso órganos. Ahora que tenemos creado nuestro maniquí, lo podemos usar para crear muchos más maniquies, los cuales podrán o no tener los atributos (órganos) que les hemos asignado.
