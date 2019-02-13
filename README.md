@@ -2,27 +2,33 @@
 
 # Programación de Servicios y Procesos
 
-# Primera evaluación
+## ÍNDICE
 <details>
-<summary>Expandir/Cerrar</summary>
+<summary>Primera evaluación</summary>
   
-## [Actividad 0](Actividad%200/Act0_Quiniela.md)
+### [Actividad 0 - Quiniela](Actividad%200/Act0_Quiniela.md)
 
-## [Actividad 0](Actividad%200/Act0_Quiniela.md)
+## [Actividad 1 - Definiciones básicas](Actividad%201/Definiciones%2basicas.md)
 
-## [Actividad 0](Actividad%200/Act0_Quiniela.md)
+## [Actividad 2 - Verificación DNI](Actividad%202/Act2_VerificarDNI.md)
 
-## [Actividad 0](Actividad%200/Act0_Quiniela.md)
+## [Actividad 3 - Herencia básica](Actividad%203/Act3_Herencia básica.md)
 
-## [Actividad 0](Actividad%200/Act0_Quiniela.md)
+## [Actividad 4 - Aeropuertos](Actividad%204/Act4_Aeropuertos.md)
 
-## [Actividad 0](Actividad%200/Act0_Quiniela.md)
+## [Actividad 5 - Definiciones pt 2](Actividad%205/Definiciones%20pt%202.md)
 
-## [Actividad 0](Actividad%200/Act0_Quiniela.md)
+## [Actividad 6 - Aplicaciones preferidas](Actividad%206/Act6_AplicacionesPreferidas.md)
 
-## [Actividad 0](Actividad%200/Act0_Quiniela.md)
+## [Actividad 7 - Aplicaciones del SO en procesos](Actividad%207/Act7_AplicacionesSO.md)
+</details>
+<br>
 <details>
+<summary>Segunda evaluación</summary>
+  
+## [Proyecto API League Of Legends](Actividad%200/Act0_Quiniela.md)
 
+## [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)
 
-
-## Segunda evaluación
+## [Aplicación](Actividad%200/Act0_Quiniela.md)
+</details>
