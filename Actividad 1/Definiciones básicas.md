@@ -1,3 +1,4 @@
+# Actividad 1. Definiciones básicas.
 En esta actividad voy a definir las carácteristicas básicas de la programación con intención de que todo el mundo pueda entenderlas:
 
 ## Clase
