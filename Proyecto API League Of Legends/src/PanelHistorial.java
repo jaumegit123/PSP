@@ -22,8 +22,6 @@ public class PanelHistorial extends JPanel {
 
 	/**
 	 * Create the frame.
-	 * 
-	 * @throws RiotApiException
 	 */
 	public PanelHistorial(String name) throws RiotApiException {
 		setLayout(new BorderLayout());
