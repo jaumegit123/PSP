@@ -13,7 +13,7 @@ Breve explicación
 
 ### [Actividad 2 - Verificación DNI](Actividad%202/Act2_VerificarDNI.md)
 
-### [Actividad 3 - Herencia básica](Actividad%203/Act3_Herencia básica.md)
+### [Actividad 3 - Herencia básica](Actividad%203/Act3_Herencia%20básica.md)
 
 ### [Actividad 4 - Aeropuertos](Actividad%204/Act4_Aeropuertos.md)
 
