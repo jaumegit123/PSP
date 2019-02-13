@@ -19,7 +19,7 @@ Breve explicación
 
 ### [Actividad 5 - Definiciones pt 2](Actividad%205/Definiciones%20pt%202.md)
 
-### [Actividad 6 - Aplicaciones preferidas](Actividad%206/Act6_AplicacionesPreferidas.md)
+### [Actividad 6 - Barra de aplicaciones preferidas](Actividad%206/Act6_AplicacionesPreferidas.md)
 
 ### [Actividad 7 - Aplicaciones del SO en procesos](Actividad%207/Act7_AplicacionesSO.md)
 </details>
