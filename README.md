@@ -1,5 +1,5 @@
 <details>
-<summary>Por hacer</summary>
+<summary>En progreso...</summary>
   
   - [x] Diseño
   - [x] Portada
@@ -10,9 +10,15 @@
 </details>
 
 # Programación de Servicios y Procesos
-![alt text](https://cdn-images-1.medium.com/max/1200/0*ngXgBNNdx6iiWP8q.png)
+![portada](https://cdn-images-1.medium.com/max/1200/0*ngXgBNNdx6iiWP8q.png)
 
-Breve explicación
+La programación de servicios y procesos es una de las importantes ramas del desarrollo de aplicaciones multiplataforma, donde se desempeñan los siguientes objetivos de aprendizaje:
+
+- La utilización de las capacidades ofrecidas por el sistema operativo para la gestión de procesos e hilos.
+- La programación de aplicaciones compuestas por varios procesos e hilos.
+- El desarrollo de aplicaciones con capacidades para comunicarse y ofrecer servicios a través de una red.
+- La utilización de mecanismos de seguridad en el desarrollo de aplicaciones.
+
 
 ## ÍNDICE
 <details open>
@@ -41,7 +47,7 @@ Breve explicación
 ### [Proyecto API League Of Legends](Actividad%200/Act0_Quiniela.md)
 Explicación código y funcionamiento
 
-### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)
+### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)markdown
 
 ### [Substracción de información web con JavaFX](Actividad%200/Act0_Quiniela.md)
 </details>
