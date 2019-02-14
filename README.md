@@ -37,11 +37,15 @@ Una vez finalizado el breve resumen de la asignatura, a continuación voy a list
 ### [Proyecto API League Of Legends](Actividad%200/Act0_Quiniela.md)
 Diría que este es mi proyecto estrella respecto a esta asignatura. Como he puesto tanto esfuerzo en él he decidido que voy a detallar aquí abajo como lo he hecho y su funcionamiento.
 
-Esta aplicación se basa en extraer el historial de partidas de un jugador mediante la API que nos proporciona Riot y mostrarlo gráficamente en pantalla.
+Esta aplicación se basa en extraer el historial de partidas de un jugador mediante la API que nos proporciona Riot y mostrarlo gráficamente en pantalla:
 
 ![Muestra](Proyecto%20API%20League%20Of%20Legends/muestra.gif)
 
-Como se puede observar, he optado por un diseño simple y elegante, 
+Como se puede observar, he optado por un diseño simple y elegante, y he sacado partido de la animación de componentes en tiempo real. La interfaz gráfica es la de Swing, y para construir las ventanas y los paneles he usado el plugin de WindowBuilder.
+
+![WindowBuilder](Proyecto%20API%20League%20Of%20Legends/windowbuilder.png)
+
+
 
 ### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)
 
