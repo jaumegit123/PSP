@@ -19,6 +19,7 @@ La programación de servicios y procesos es una de las importantes ramas del des
 - El desarrollo de aplicaciones con capacidades para comunicarse y ofrecer servicios a través de una red.
 - La utilización de mecanismos de seguridad en el desarrollo de aplicaciones.
 
+Una vez finalizado el breve resumen de la asignatura, a continuación voy a listar las actividades que he realizado durante el curso.
 
 ## ÍNDICE DE ACTIVIDADES
 <details open>
@@ -47,7 +48,7 @@ La programación de servicios y procesos es una de las importantes ramas del des
 ### [Proyecto API League Of Legends](Actividad%200/Act0_Quiniela.md)
 Explicación código y funcionamiento
 
-### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)markdown
+### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)
 
 ### [Substracción de información web con JavaFX](Actividad%200/Act0_Quiniela.md)
 </details>
