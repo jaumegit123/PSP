@@ -43,7 +43,8 @@ Esta aplicación se basa en extraer el historial de partidas de un jugador media
 
 Como se puede observar, he optado por un diseño simple y elegante, y he sacado partido de la animación de componentes en tiempo real. La interfaz gráfica es la de Swing, y para construir las ventanas y los paneles he usado el plugin de [WindowBuilder](Proyecto%20API%20League%20Of%20Legends/windowbuilder.png).
 
-
+## Clase PanelPartida
+[![Image from Gyazo](https://i.gyazo.com/b1afb9d9c04a80bfe3c670f5d9222206.png)](https://gyazo.com/b1afb9d9c04a80bfe3c670f5d9222206)
 
 
 
