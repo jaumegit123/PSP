@@ -32,7 +32,7 @@ public class VistaPrincipal extends JFrame {
 	private JPanel panel;
 	private JLabel lbl1;
 	private String nombre;
-	private static int opt = 1;
+	private static boolean animacion = true;
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -62,6 +62,7 @@ public class VistaPrincipal extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(1000, 609);
 		setLocationRelativeTo(null);
+		setTitle("Historial de partidas League Of Legends");
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(40, 43, 48));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -100,18 +101,15 @@ public class VistaPrincipal extends JFrame {
 		tfBusqueda.setFont(new Font("Segoe UI", Font.PLAIN, 15));
 		tfBusqueda.setHorizontalAlignment(SwingConstants.CENTER);
 		tfBusqueda.setBounds(250, 267, 461, 41);
+
 		tfBusqueda.addKeyListener(new KeyAdapter() {
 			@Override
 			public void keyPressed(KeyEvent e) {
 				if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-					switch (opt) {
-					case 1:
-						buscarConAnimacion();
-						break;
-					case 2:
-						buscar();
-						break;
+					if (animacion == true) {
+						animacionComponentes();
 					}
+					buscar();
 				}
 			}
 		});
@@ -126,14 +124,10 @@ public class VistaPrincipal extends JFrame {
 
 		btnBuscar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				switch (opt) {
-				case 1:
-					buscarConAnimacion();
-					break;
-				case 2:
-					buscar();
-					break;
+				if (animacion == true) {
+					animacionComponentes();
 				}
+				buscar();
 			}
 		});
 		contentPane.add(btnBuscar);
@@ -145,68 +139,41 @@ public class VistaPrincipal extends JFrame {
 
 	}
 
-	public void buscarConAnimacion() {
-		nombre = tfBusqueda.getText();
-
-		// Animación para desplazar la barra de búsqueda y el botón en tiempo real:
-		// para que esto sea posible "desbloqueamos" al hilo principal del for
-		// asignándole la tarea a un hilo nuevo. Como están a la misma altura podemos 
-		// usar el mismo hilo para mover los 2 componentes a la vez.
+	public void animacionComponentes() {
+		// Animación para desplazar tanto la barra de búsqueda, el texto y el botón en
+		// tiempo real. Para que esto sea posible "desbloqueamos" al hilo principal del
+		// for asignándole la tarea a un hilo nuevo. De esta manera, y haciendo uso del
+		// método sleep() para que no se haga de inmediato, podemos hacer una animación
+		// visible.
 		new Thread(new Runnable() {
 			@Override
 			public void run() {
-				for (int i = btnBuscar.getY(); i > 25; i--) {
-					tfBusqueda.setLocation(250, i);
-					btnBuscar.setLocation(721, i);
+				for (int y = lbl1.getY(); y > -40; y--) { // cogemos el punto Y del texto como referencia
+					lbl1.setLocation(250, y); // el texto se moverá hasta salirse de la pantalla
+					if (y > -30) {
+						tfBusqueda.setLocation(250, y + 47); // como el texto está ligeramente más arriba que estos
+						btnBuscar.setLocation(721, y + 47); // dos componentes, sumamos la diferencia en la Y
+					}
 					try {
-						Thread.currentThread().sleep(2);
+						Thread.currentThread().sleep(2); // Cuanto más alto sea el valor, más lenta será la animación
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
 				}
+				// Solo queremos que las animaciones se ejecuten la primera vez, por lo tanto
+				// cambiamos el valor de la booleana estática "animacion" a false.
+				animacion = false;
 			}
 		}).start();
-
-		// Creamos otro hilo para que la animación del texto suba al mismo tiempo
-		// que los otros dos componentes. Inmediatamente al acabar el for,
-		// se mostrará el jpanel que contiene el historial.
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
-				for (int i = 220; i > -40; i--) {
-					lbl1.setLocation(250, i);
-					try {
-						Thread.currentThread().sleep(2);
-					} catch (InterruptedException e) {
-						e.printStackTrace();
-					}
-				}
-
-				try {
-					PanelHistorial ph = new PanelHistorial(nombre);
-					panel.add(ph);
-				} catch (RiotApiException e) {
-					e.printStackTrace();
-				}
-				panel.validate();
-				panel.repaint();
-			}
-		}).start();
-		// Solo queremos que las animaciones se ejecuten la primera vez, por lo tanto
-		// cambiamos el valor de la variable estática "opt" a 2.
-		opt = 2;
 	}
 
 	public void buscar() {
-		// Con opt == 2, se ejecutará este método de búsqueda sin animación de
-		// componentes.
-		nombre = tfBusqueda.getText();
 		new Thread(new Runnable() {
 			@Override
 			public void run() {
 				panel.removeAll();
-
 				try {
+					nombre = tfBusqueda.getText();
 					PanelHistorial ph = new PanelHistorial(nombre);
 					panel.add(ph);
 				} catch (RiotApiException e) {
