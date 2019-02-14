@@ -1,14 +1,3 @@
-<details>
-<summary>En progreso...</summary>
-  
-  - [x] Diseño
-  - [x] Portada
-  - [x] Índice
-  - [ ] Todas las actividades
-  - [ ] Explicación contenido
-  
-</details>
-
 # Programación de Servicios y Procesos
 ![portada](https://cdn-images-1.medium.com/max/1200/0*ngXgBNNdx6iiWP8q.png)
 
