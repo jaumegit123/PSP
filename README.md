@@ -1,4 +1,13 @@
-Portada e índice en progreso...
+<details>
+<summary>Por hacer</summary>
+  
+  - [x] Diseño
+  - [x] Portada
+  - [x] Índice
+  - [ ] Todas las actividades
+  - [ ] Explicación contenido
+  
+</details>
 
 # Programación de Servicios y Procesos
 ![alt text](https://cdn-images-1.medium.com/max/1200/0*ngXgBNNdx6iiWP8q.png)
