@@ -41,11 +41,14 @@ Esta aplicación se basa en extraer el historial de partidas de un jugador media
 
 ![Muestra](Proyecto%20API%20League%20Of%20Legends/muestra.gif)
 
-Como se puede observar, he optado por un diseño simple y elegante, y he sacado partido de la animación de componentes en tiempo real. La interfaz gráfica es la de Swing, y para construir las ventanas y los paneles he usado el plugin de [WindowBuilder](Proyecto%20API%20League%20Of%20Legends/windowbuilder.png).
+Como se puede observar, he optado por un diseño simple y elegante, y he sacado partido de la animación de componentes en tiempo real mediante hilos. La interfaz gráfica es la de Swing, y para construir las ventanas y los paneles he usado el plugin de [WindowBuilder](Proyecto%20API%20League%20Of%20Legends/windowbuilder.png).
 
 ## Clase PanelPartida
 [![Image from Gyazo](https://i.gyazo.com/b1afb9d9c04a80bfe3c670f5d9222206.png)](https://gyazo.com/b1afb9d9c04a80bfe3c670f5d9222206)
 
+Aquí es donde construyo el panel de la partida que mostrará prácticamente toda la información de manera visual (como el campeón jugado, la fecha, duración de la partida, asesinatos, muertes, asistencias, cs obtenidos, objetos comprados, campeones del equipo aliado y enemigo y sus usuarios, etc). Este panel es el que se reutiliza dinámicamente para construir una lista que será el historial.
+
+## API KEY
 
 
 ### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)
