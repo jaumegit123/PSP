@@ -3,6 +3,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
+// Clase de ayuda en cuanto a cálculos y conversiones de tiempo
 public class TimeHelper {
 
 	public static String convertDate(long creation) {
