@@ -3,7 +3,7 @@
 
 La programación de servicios y procesos es una de las importantes ramas del desarrollo de aplicaciones multiplataforma, donde se desempeñan los siguientes objetivos de aprendizaje:
 
-- La utilización de las capacidades ofrecidas por el sistema operativo.
+- La utilización de las capacidades ofrecidas por el sistema operativo para desarrollar aplicaciones.
 - La programación de aplicaciones compuestas por varios procesos e hilos maximizando así su eficiencia.
 - El desarrollo de aplicaciones con capacidades para comunicarse y ofrecer servicios a través de una red.
 - La utilización de mecanismos de seguridad en el desarrollo de aplicaciones.
@@ -35,7 +35,13 @@ Una vez finalizado el breve resumen de la asignatura, a continuación voy a list
 <summary>Segunda evaluación</summary>
   
 ### [Proyecto API League Of Legends](Actividad%200/Act0_Quiniela.md)
-Explicación código y funcionamiento
+Diría que este es mi proyecto estrella respecto a esta asignatura. Como he puesto tanto esfuerzo en él he decidido que voy a detallar aquí abajo como lo he hecho y su funcionamiento.
+
+Esta aplicación se basa en extraer el historial de partidas de un jugador mediante la API que nos proporciona Riot y mostrarlo gráficamente en pantalla.
+[![Image from Gyazo](https://i.gyazo.com/a5af585332d0c053c9e6253850a2ba55.gif)](https://gyazo.com/a5af585332d0c053c9e6253850a2ba55)
+
+para hacer uso de la api del lol
+
 
 ### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)
 
