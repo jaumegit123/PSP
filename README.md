@@ -48,6 +48,9 @@ Como se puede observar, he optado por un diseño simple y elegante, y he sacado 
 
 Aquí es donde construyo el panel de la partida que mostrará prácticamente toda la información de manera visual (como el campeón jugado, la fecha, duración de la partida, asesinatos, muertes, asistencias, cs obtenidos, objetos comprados, campeones del equipo aliado y enemigo y sus usuarios, etc). Este panel es el que se reutiliza dinámicamente para construir una lista que será el historial (clase PanelHistorial).
 
+## Clase ApiRequest
+En esta clase hago uso de la librería riot-api para facilitar la conexión y la extracción de datos a través de los métodos que he creado requestSummoner(), requestMatchList() y requestMatch(). Para recuperar la información de todos los campeones	uso getAllChampions(), donde recorro el json "champion.json" y paso los datos a un objeto de la clase Campeon.
+
 > **Nota:** Para poder conectar con la API de Riot, me he tenido que registrar como desarrollador en su página y hacer uso de la key que se genera automáticamente. Esta [expira cada 24h](https://i.gyazo.com/8599d585b89e8e020cd609f3905f773d.png), y si se usa la aplicación con la key expirada mostrará un error Forbbiden. Por tanto iré actualizándola cada poco tiempo hasta la corrección (se encuentra en la clase ApiRequest).
 
 ```java
