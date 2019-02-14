@@ -14,13 +14,13 @@
 
 La programación de servicios y procesos es una de las importantes ramas del desarrollo de aplicaciones multiplataforma, donde se desempeñan los siguientes objetivos de aprendizaje:
 
-- La utilización de las capacidades ofrecidas por el sistema operativo para la gestión de procesos e hilos.
-- La programación de aplicaciones compuestas por varios procesos e hilos.
+- La utilización de las capacidades ofrecidas por el sistema operativo.
+- La programación de aplicaciones compuestas por varios procesos e hilos maximizando así su eficiencia.
 - El desarrollo de aplicaciones con capacidades para comunicarse y ofrecer servicios a través de una red.
 - La utilización de mecanismos de seguridad en el desarrollo de aplicaciones.
 
 
-## ÍNDICE
+## ÍNDICE DE ACTIVIDADES
 <details open>
 <summary>Primera evaluación</summary>
   
