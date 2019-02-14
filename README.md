@@ -35,8 +35,6 @@ Una vez finalizado el breve resumen de la asignatura, a continuación voy a list
 <summary>Segunda evaluación</summary>
   
 ### [Proyecto API League Of Legends](Actividad%200/Act0_Quiniela.md)
-Diría que este es mi proyecto estrella respecto a esta asignatura. Como he puesto tanto esfuerzo en él he decidido que voy a detallar aquí abajo como lo he hecho y el funcionamiento de algunas clases.
-
 Esta aplicación se basa en extraer el historial de partidas de un jugador mediante la API que nos proporciona Riot y mostrarlo gráficamente en pantalla:
 
 ![Muestra](Proyecto%20API%20League%20Of%20Legends/muestra.gif)
