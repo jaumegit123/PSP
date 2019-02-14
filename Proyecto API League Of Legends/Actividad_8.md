@@ -1,8 +1,9 @@
+# Proyecto API League Of Legends
 Esta aplicación se basa en extraer el historial de partidas de un jugador mediante la API que nos proporciona Riot y mostrarlo gráficamente en pantalla:
 
-![Muestra](Proyecto%20API%20League%20Of%20Legends/muestra.gif)
+![Muestra](muestra.gif)
 
-Como se puede observar, he optado por un diseño simple y elegante, he rediseñado el típico TextField con unos bordes ovalados para una barra de búsqueda más bonita y he sacado partido de la animación de componentes en tiempo real mediante hilos. La interfaz gráfica es la de Swing, y para construir las ventanas y los paneles he usado el plugin de [WindowBuilder](Proyecto%20API%20League%20Of%20Legends/windowbuilder.png).
+Como se puede observar, he optado por un diseño simple y elegante, he rediseñado el típico TextField con unos bordes ovalados para una barra de búsqueda más bonita y he sacado partido de la animación de componentes en tiempo real mediante hilos. La interfaz gráfica es la de Swing, y para construir las ventanas y los paneles he usado el plugin de [WindowBuilder](windowbuilder.png).
 
 ## Clase PanelPartida
 [![Image from Gyazo](https://i.gyazo.com/b1afb9d9c04a80bfe3c670f5d9222206.png)](https://gyazo.com/b1afb9d9c04a80bfe3c670f5d9222206)
