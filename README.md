@@ -1,6 +1,8 @@
 Portada e índice en progreso...
 
 # Programación de Servicios y Procesos
+![alt text](https://cdn-images-1.medium.com/max/1200/0*ngXgBNNdx6iiWP8q.png)
+
 Breve explicación
 
 ## ÍNDICE
