@@ -38,10 +38,10 @@ Una vez finalizado el breve resumen de la asignatura, a continuación voy a list
 Diría que este es mi proyecto estrella respecto a esta asignatura. Como he puesto tanto esfuerzo en él he decidido que voy a detallar aquí abajo como lo he hecho y su funcionamiento.
 
 Esta aplicación se basa en extraer el historial de partidas de un jugador mediante la API que nos proporciona Riot y mostrarlo gráficamente en pantalla.
-[![Image from Gyazo](https://i.gyazo.com/a5af585332d0c053c9e6253850a2ba55.gif)](https://gyazo.com/a5af585332d0c053c9e6253850a2ba55)
 
-para hacer uso de la api del lol
+[![Image from Gyazo](https://i.gyazo.com/eada0048703c16bd75725a799ecd4a75.gif)](https://gyazo.com/eada0048703c16bd75725a799ecd4a75)
 
+Como se puede observar, he optado por un diseño simple y elegante, 
 
 ### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)
 
