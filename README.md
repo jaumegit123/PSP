@@ -16,7 +16,7 @@ Una vez finalizado el breve resumen de la asignatura, a continuación voy a list
   
 ### [Actividad 0 - Quiniela](Actividad%200/Act0_Quiniela.md)
 
-### [Actividad 1 - Definiciones básicas](Actividad%201/Definiciones%2basicas.md)
+### [Actividad 1 - Definiciones básicas](Actividad%201/Definiciones%20básicas.md)
 
 ### [Actividad 2 - Verificación DNI](Actividad%202/Act2_VerificarDNI.md)
 
