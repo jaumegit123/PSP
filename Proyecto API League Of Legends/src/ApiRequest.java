@@ -22,7 +22,7 @@ import net.rithms.riot.constant.Platform;
 
 public class ApiRequest {
 
-	private static final String API_KEY = "RGAPI-b6ae478b-b0c6-4e77-87e4-0299bc2a60cd"; // Expira en 24 horas
+	private static final String API_KEY = "RGAPI-beba573f-405d-4d4c-aadb-74a7acba901f"; // Expira en 24 horas
 	private static final ApiConfig config = new ApiConfig().setKey(API_KEY);
 	private static final RiotApi api = new RiotApi(config);
 
@@ -34,7 +34,7 @@ public class ApiRequest {
 			return api.getSummonerByName(Platform.EUW, name);
 		} catch (RespectedRateLimitException e) {
 			JOptionPane.showMessageDialog(null, e.getMessage());
-			// Si hemos sobrepasado el límite de llamadas a la api, no es necesario
+			// Si hemos sobrepasado el lÃ­mite de llamadas a la api, no es necesario
 			// mantener el hilo actual, ya que no queremos que se pasen valores nulos
 			// para crear los paneles de las partidas.
 			Thread.currentThread().destroy();
