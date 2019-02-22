@@ -1,11 +1,11 @@
 # Substracción de información web a través de JSoup
 En esta actividad he decidido hacer un simple randomizador de películas de sensacine usando JavaFX y JSoup en el IDE de IntelliJ. Al pulsar sobre el botón de "¡Muéstrame una pélicula!" se visualizarán un Label y un HyperLink con una película aleatoria, a la cuál podemos clickear para verla en su página web.
 
-Muestra en ejecución:
+### Muestra en ejecución:
 
 ![Muestra](muestra.gif)
 
-Muestra de código relevante:
+### Muestra de código relevante:
 ```java
     @FXML
     void cargarTitulo(ActionEvent event) throws IOException {
@@ -25,3 +25,6 @@ Muestra de código relevante:
         lblTitulo.setVisible(true);
     }
 ```
+<br>
+
+[Volver al índice](../README.md)
