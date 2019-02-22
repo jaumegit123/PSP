@@ -37,7 +37,8 @@ Una vez finalizado el breve resumen de la asignatura, a continuación voy a list
 ### [Proyecto API League Of Legends](Proyecto%20API%20League%20Of%20Legends/Actividad_8.md)
 #### (Incluye memoria explicativa)
 
-### [Aplicación Cliente-Servidor](Actividad%200/Act0_Quiniela.md)
+### [Aplicación Cliente-Servidor](AplicacionClienteServidorMultiHilo/Actividad_9.md)
+#### (Incluye memoria explicativa)
 
 ### [Substracción de información web con JavaFX](Substracción%20de%20información%20web/Actividad_10.md)
 #### (Incluye memoria explicativa)
