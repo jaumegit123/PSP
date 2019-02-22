@@ -26,6 +26,6 @@ public class ApiRequest {
 ```
 
 > **Nota 2:** El resto de las explicaciones están comentadas en el propio código.
-
+<br>
 
 [Volver al índice](../README.md)
