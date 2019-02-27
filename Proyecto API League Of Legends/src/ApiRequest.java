@@ -22,7 +22,7 @@ import net.rithms.riot.constant.Platform;
 
 public class ApiRequest {
 
-	private static final String API_KEY = "RGAPI-beba573f-405d-4d4c-aadb-74a7acba901f"; // Expira en 24 horas
+	private static final String API_KEY = "RGAPI-97cc2d6c-7854-434f-8184-b1f84244c126"; // Expira en 24 horas
 	private static final ApiConfig config = new ApiConfig().setKey(API_KEY);
 	private static final RiotApi api = new RiotApi(config);
 
